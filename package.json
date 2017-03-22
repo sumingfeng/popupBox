@@ -1,0 +1,22 @@
+{
+  "name": "popup",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "author": "suming",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.0",
+    "cross-env": "^3.2.4",
+    "css-loader": "^0.27.3",
+    "file-loader": "^0.10.1",
+    "style-loader": "^0.15.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}

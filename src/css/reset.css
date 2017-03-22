@@ -1,0 +1,28 @@
+@charset "UTF-8";@media screen and (max-width:319px){html{font-size:85.33px}
+}
+@media screen and (min-width:320px) and (max-width:359px){html{font-size:85.33px}
+}
+@media screen and (min-width:360px) and (max-width:374px){html{font-size:96px}
+}
+@media screen and (min-width:375px) and (max-width:383px){html{font-size:100px}
+}
+@media screen and (min-width:384px) and (max-width:399px){html{font-size:102.4px}
+}
+@media screen and (min-width:400px) and (max-width:413px){html{font-size:106.67px}
+}
+@media screen and (min-width:414px){html{font-size:110.4px}
+}
+article,aside,blockquote,body,button,code,dd,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}
+body{outline:0;background-color:#f8f8f8;color:#000;font-size:16px;font-family:"Helvetica Neue",Helvetica,STHeiTi,sans-serif;line-height:1.5;-webkit-user-select:none;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+caption,th{text-align:left}
+fieldset,img{border:0}
+li{list-style:none}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+button,input,optgroup,option,select,textarea{outline:0;font-weight:inherit;font-style:inherit;font-size:inherit;font-family:inherit}
+button{border:0;background:0 0;-webkit-appearance:none}
+a{text-decoration:none;-webkit-touch-callout:none}
+:focus{outline:0;-webkit-tap-highlight-color:transparent}
+em,i{font-style:normal}

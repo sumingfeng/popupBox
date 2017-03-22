@@ -1,0 +1,91 @@
+  .popup-box {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      display: -webkit-box;
+      -webkit-box-orient: horizontal;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+      background: rgba(0, 0, 0, .4);
+      display: none;
+  }
+  
+  .empty-box {
+      background: rgba(0, 0, 0, 0);
+  }
+  
+  .popup-box-bd {
+      min-height: 50px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      display: -webkit-box;
+      display: box;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+      -webkit-box-orient: vertical;
+  }
+  
+  .pop-btn {
+      text-align: center;
+      height: 42px;
+      line-height: 42px;
+      color: #00a5e0;
+      box-sizing: border-box;
+      -webkit-box-align: center;
+      border-top: 1px solid #e0e0e0;
+      width: 100%;
+  }
+  
+  .popup-box .inner-popup-box {
+      border-radius: 6px;
+      width: 270px;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      pointer-events: auto;
+      background-color: rgba(253, 253, 253, .95);
+      position: relative;
+      font-size: 16px;
+  }
+  /*toast*/
+  .pop-toast {
+      background: rgba(0, 0, 0, .7);
+      border-radius: 5px;
+      color: #fff;
+      padding: 20px;
+  }
+  /*loading*/
+  .load-sta {
+    width: 130px;
+    height: 110px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    text-align: center;
+    background: rgba(0,0,0,.65);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  
+  .load-icon {
+      width: 37px;
+      height: 37px;
+      display: block;
+      background-image: url(./images/loading_sprite_white.png);
+      -webkit-background-size: auto 37px;
+      -webkit-animation: am-rotate2 1s steps(12) infinite;
+       margin: 18px 0 8px;
+  }
+  
+  @-webkit-keyframes am-rotate2 {
+      from {
+          background-position: 0 0
+      }
+      to {
+          background-position: -444px 0
+      }
+  }
